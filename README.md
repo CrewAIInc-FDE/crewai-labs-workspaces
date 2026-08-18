@@ -17,7 +17,7 @@ time, running it after every step.
 
 ## Open it in GitHub Codespaces
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/crewAIInc/crewai-labs-workspaces?quickstart=1)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/CrewAIInc-FDE/crewai-labs-workspaces?quickstart=1)
 
 A free personal GitHub account is all you need. Give it ~2 minutes to build —
 `uv` and the CrewAI CLI come pre-installed.
