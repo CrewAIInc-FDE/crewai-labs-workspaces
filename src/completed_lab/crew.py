@@ -12,10 +12,10 @@ from crewai.agents.agent_builder.base_agent import BaseAgent
 from crewai.tasks.hallucination_guardrail import HallucinationGuardrail
 from crewai_tools import ScrapeWebsiteTool
 
-from enrichment_crew.schemas import EnrichedCompanyProfile
-from enrichment_crew.tools.company_api_tool import CompanyInfoAPITool
-from enrichment_crew.tools.icp_tool import ICPFitScoreTool
-from enrichment_crew.tools.web_search_tool import WebSearchTool
+from completed_lab.schemas import EnrichedCompanyProfile
+from completed_lab.tools.company_api_tool import CompanyInfoAPITool
+from completed_lab.tools.icp_tool import ICPFitScoreTool
+from completed_lab.tools.web_search_tool import WebSearchTool
 
 
 @CrewBase
