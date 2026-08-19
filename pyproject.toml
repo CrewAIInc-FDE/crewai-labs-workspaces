@@ -1,5 +1,5 @@
 [project]
-name = "enrichment_crew"
+name = "completed_lab"
 version = "0.1.0"
 description = "Workshop Lab 1 — a two-source company enrichment crew built with CrewAI"
 authors = [{ name = "CrewAI" }]
@@ -10,12 +10,12 @@ dependencies = [
 ]
 
 [project.scripts]
-enrichment_crew = "enrichment_crew.main:run"
-run_crew = "enrichment_crew.main:run"
-train = "enrichment_crew.main:train"
-replay = "enrichment_crew.main:replay"
-test = "enrichment_crew.main:test"
-run_with_trigger = "enrichment_crew.main:run_with_trigger"
+completed_lab = "completed_lab.main:run"
+run_crew = "completed_lab.main:run"
+train = "completed_lab.main:train"
+replay = "completed_lab.main:replay"
+test = "completed_lab.main:test"
+run_with_trigger = "completed_lab.main:run_with_trigger"
 
 [build-system]
 requires = ["hatchling"]

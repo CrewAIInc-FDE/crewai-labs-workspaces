@@ -9,7 +9,7 @@ import sys
 import warnings
 from pathlib import Path
 
-from enrichment_crew.crew import EnrichmentCrew
+from completed_lab.crew import EnrichmentCrew
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
