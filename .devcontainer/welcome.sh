@@ -3,24 +3,18 @@
 cat <<'EOF'
 
   ── CrewAI Workshop — Enrichment Crew ─────────────────────────────────
-  This codespace is pre-provisioned: uv + the CrewAI CLI are installed,
-  and the enrichment crew is right here at the repo root.
+  Ready to go: uv + the CrewAI CLI are installed. Quick check:
 
-  Quick check:    crewai --version
+       crewai --version
 
-  1) Load your workshop credentials (key on your handout / the screen):
-       CURL_URL='<url-from-handout>' bash scripts/load-creds.sh
-       source crewai-creds.env
-     (no URL? paste the file in: bash scripts/load-creds.sh)
-     Re-run the `source` line in every new terminal.
+  Your key: open the workshop email, copy its two lines, and paste them
+  into a new  .env  file in this folder. Paste into the FILE (not the
+  terminal) — that works in every browser:
 
-  Then follow the Lab 1 guide your instructor shares. Run the crew with:
-       crewai install && crewai run
+       OPENAI_API_KEY=sk-proj-...
+       MODEL=gpt-4o-mini
 
-  2) Only when you reach Section 6 (deploy), sign in to CrewAI AMP
-     (opens a browser / device code) and ship it:
-       crewai login
-       crewai deploy create
+  Then follow the Lab 1 guide your instructor shares.
   ──────────────────────────────────────────────────────────────────────
 
 EOF
