@@ -8,7 +8,9 @@
       "extensions": ["ms-python.python"],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash",
-        "workbench.startupEditor": "none"
+        "workbench.startupEditor": "none",
+        "python.envFile": "${workspaceFolder}/.env",
+        "python.terminal.useEnvFile": true
       }
     }
   },
@@ -16,8 +18,5 @@
     "cpus": 2,
     "memory": "8gb",
     "storage": "32gb"
-  },
-  "remoteEnv": {
-    "OPENAI_API_KEY": "${localEnv:OPENAI_API_KEY}"
   }
 }
