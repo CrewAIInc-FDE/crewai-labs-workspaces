@@ -18,5 +18,9 @@
     "cpus": 2,
     "memory": "8gb",
     "storage": "32gb"
+  },
+  "containerEnv": {
+    "CREWAI_DISABLE_TELEMETRY": "true",
+    "OTEL_SDK_DISABLED": "true"
   }
 }
